@@ -1,0 +1,5 @@
+streamlit
+PIL
+streamlit_extras.dataframe_explorer
+pandas
+hashlib
