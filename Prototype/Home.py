@@ -6,14 +6,14 @@ def app():
     st.title("Welcome to Factolawies~")
 
         # Load the image
-    image_path = "/Users/pannawatwhangvisith/Desktop/Coding_Project/LegalTecheiei/logo.png"  # Replace with your image path
-    image = Image.open(image_path)
+    #image_path = "/Users/pannawatwhangvisith/Desktop/Coding_Project/LegalTecheiei/logo.png"  # Replace with your image path
+    #image = Image.open(image_path)
 
     # Display the image
-    st.image(image, caption="", use_column_width=True)
+    #st.image(image, caption="", use_column_width=True)
 
     # Title: About Us
-    st.title("🧑‍💼 About Us")
+    #st.title("🧑‍💼 About Us")
 
 
 
