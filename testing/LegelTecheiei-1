@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Specify the path to your CSV file
+file_path = 'factory_types.csv'
+
+# Read the CSV file
+df = pd.read_csv(file_path)
+
+# Get the number of rows
+row_count = df.shape[0]  # xcludes the header
+
+print(f"The CSV file contains {row_count} rows (excluding the header).")

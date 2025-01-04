@@ -1,0 +1,9 @@
+LegalTecheiei/
+├── Prototype/
+│   ├── __init__.py  (ไฟล์ว่างไว้เพื่อบอกว่า Prototype เป็น package)
+│   ├── Home.py
+│   └── OtherPage.py
+├── Multiple-pages.py
+
+
+///////////////////////////////////////////////////////////////////////
