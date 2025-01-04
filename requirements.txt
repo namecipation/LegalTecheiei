@@ -1,5 +1,4 @@
 streamlit
-PIL
-streamlit_extras.dataframe_explorer
+pillow
+streamlit-extras
 pandas
-hashlib
