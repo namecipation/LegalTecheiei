@@ -94,5 +94,6 @@ def app():
         selected_columns = matching_row[["โรงงานจำพวกที่ 1", "โรงงานจำพวกที่ 2", "โรงงานจำพวกที่ 3"]]
         st.subheader("ผลลัพธ์ที่ค้นพบ:") 
         st.table(selected_columns)
+
     
     
