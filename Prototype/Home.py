@@ -13,27 +13,24 @@ def app():
     #st.image(image, caption="", use_column_width=True)
 
     # Title: About Us
-    #st.title("🧑‍💼 About Us")
+    st.title("🧑‍💼 About Us")
 
+#    ### Our Team
+
+#    We are a **diverse group** of individuals with complementary expertise:
+
+#    - **Two Law Students**:  
+#  Experts in the legal domain with a deep understanding of law and justice.
+  
+#   - **Three Business Students**:  
+#  Equipped with extensive experience in case competitions and a solid foundation in business strategy and development.
+  
+#    - **One Computer Engineering Student**:  
+#  Specializes in technology and software development, currently undertaking an internship as a full-stack developer.
 
 
     st.markdown("""
-    ## Our Team
-
-    We are a **diverse group** of individuals with complementary expertise:
-
-    - **Two Law Students**:  
-  Experts in the legal domain with a deep understanding of law and justice.
-  
-    - **Three Business Students**:  
-  Equipped with extensive experience in case competitions and a solid foundation in business strategy and development.
-  
-    - **One Computer Engineering Student**:  
-  Specializes in technology and software development, currently undertaking an internship as a full-stack developer.
-
-    ---
-
-    ### **Our Shared Mission**
+    ### **Our Mission**
     Despite coming from different academic backgrounds, we share a common goal:
 
     - To **integrate technology** into the legal field.

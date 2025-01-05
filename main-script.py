@@ -2,7 +2,7 @@ import streamlit as st
 import hashlib
 from Prototype.Home import app as home_app
 from Prototype.Classification import app as classification_app
-from Prototype.If_Know_Check_Again import app as if_know_check_again_app
+#from Prototype.If_Know_Check_Again import app as if_know_check_again_app
 from login import app as login_app
 # Set page configuration at the very top
 st.set_page_config(
@@ -16,7 +16,7 @@ st.set_page_config(
 PAGES = {
     "Home": home_app,
     "ตรวจสอบประเภทโรงงานของคุณ": classification_app,
-    "ตรวจสอบการเข้าหลักเกณฑ์": if_know_check_again_app,
+    #"ตรวจสอบการเข้าหลักเกณฑ์": if_know_check_again_app,
     "login/register": login_app
 }
 
@@ -80,16 +80,16 @@ def main():
     """, unsafe_allow_html=True)
     
     # Display navigation buttons at the top of the page
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col4 = st.columns(3)
     with col1:
         if st.button("Home"):
             set_page("Home")
     with col2:
         if st.button("ตรวจสอบประเภทโรงงานของคุณ"):
             set_page("ตรวจสอบประเภทโรงงานของคุณ")
-    with col3:
-        if st.button("ตรวจสอบการเข้าหลักเกณฑ์"):
-            set_page("ตรวจสอบการเข้าหลักเกณฑ์")
+    #with col3:
+    #    if st.button("ตรวจสอบการเข้าหลักเกณฑ์"):
+    #        set_page("ตรวจสอบการเข้าหลักเกณฑ์")
     with col4:
         if st.button("Register/Login"):
             set_page("ตรวจสอบการเข้าหลักเกณฑ์")
@@ -102,7 +102,7 @@ def main():
         <hr>
         <footer>
         <p style="text-align: center; color: #1565c0;">
-        © 2024 ChulaLegalTech-6 adfadfadf | Team Factolawies | Powered by Streamlit
+        © 2024 ChulaLegalTech-6 | Team Factolawies | Powered by Streamlit
         </p>
         </footer>
     """, unsafe_allow_html=True)
